@@ -1,0 +1,15 @@
+<div class="word-generator">
+  <div class="instructions">
+    <p>Click the button below to generate some Vancouver Ipsum.</p>
+    <button
+    class="generate-button"
+    (click)="onGenerate()"
+    >
+    {{generateText}}
+  </button>
+  </div>
+
+</div>
+<div *ngIf="displayWords" class="vancouver-words">
+  <p class="">{{paragraph}}</p>
+</div>

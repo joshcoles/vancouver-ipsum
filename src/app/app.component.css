@@ -1,0 +1,37 @@
+.title {
+  background-color: #323b5f;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.created-by {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  margin-bottom: 0px;
+  right: 20px;
+}
+
+.created-by a {
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.created-by a:hover {
+  color: #303030;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.generator-container {
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.generate-button {
+  color: white;
+  background: red !important;
+  border: 2px solid #323b5f;
+}
