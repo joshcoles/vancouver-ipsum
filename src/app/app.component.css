@@ -1,12 +1,16 @@
 .title {
   background-color: #323b5f;
   color: white;
-  padding: 5px 15px;
+  padding: 10px 15px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .created-by {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
   bottom: 20px;
   color: white;
   margin-bottom: 0px;
@@ -17,6 +21,10 @@
   color: white;
   font-weight: bold;
   transition: all 0.2s;
+}
+
+.created-by .photo-credit {
+  margin-bottom: 10px;
 }
 
 .created-by a:hover {

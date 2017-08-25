@@ -1,15 +1,26 @@
 <div class="word-generator">
   <div class="instructions">
-    <p>Click the button below to generate some Vancouver Ipsum.</p>
-    <button
-    class="generate-button"
-    (click)="onGenerate()"
-    >
-    {{generateText}}
-  </button>
+    <p>{{instructions}}</p>
+      <div class="options">
+        <input
+        (input)="onUpdateParagraphNumber($event)"
+        type="number"
+        name="input"
+        value="1"
+        required>
+        <button
+          class="generate-button"
+          (click)="onGenerate()"
+          >
+          {{generateText}}
+        </button>
+      </div>
   </div>
 
 </div>
 <div *ngIf="displayWords" class="vancouver-words">
-  <p class="">{{paragraph}}</p>
+  <div *ngFor="let paragraph of paragraphs">
+    <p>{{paragraph}}</p>
+  </div>
 </div>
+
