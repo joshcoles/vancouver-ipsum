@@ -23,7 +23,6 @@ export class GeneratorComponent implements OnInit {
     { word: 'rain' },
     { word: 'cambie' },
     { word: 'translink' },
-    { word: 'overdose' },
     { word: 'skytrain' },
     { word: 'false creek' },
     { word: 'broadway' },
