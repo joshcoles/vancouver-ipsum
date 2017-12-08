@@ -44,9 +44,9 @@ export class GeneratorComponent implements OnInit {
 
   displayWords = false;
 
-   // Each paragraph is generated uniquely and pushed into 'paragraphs' array
-   paragraph = '';
-   paragraphs = []
+  // Each paragraph is generated uniquely and pushed into 'paragraphs' array
+  paragraph = '';
+  paragraphs = []
 
 
   // Sets default paragraph number. This changes any time
