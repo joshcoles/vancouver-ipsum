@@ -45,7 +45,6 @@ export class GeneratorComponent implements OnInit {
   displayWords = false;
 
   // Each paragraph is generated uniquely and pushed into 'paragraphs' array
-  paragraph = '';
   paragraphs = []
 
 
@@ -65,7 +64,7 @@ export class GeneratorComponent implements OnInit {
   }
 
 
-  // TODO remove duplicate words from same paragarph
+  // TODO remove duplicate words from same paragraph
   // This function generates a new paragraph for each
   // number in 'paragraphNumber', pushes it into 'paragraphs',
   // and displays it
@@ -76,6 +75,7 @@ export class GeneratorComponent implements OnInit {
     // Checks if it's the last loop. If not, add a space
     // after word
     for (var i = 0; i < this.paragraphNumber; i++) {
+      newParagraph = "";
       for (let i = 0; i < this.vancouverWords.length; i++) {
         let index = Math.floor(this.vancouverWords.length * Math.random());
         if (i != this.vancouverWords.length - 1) {

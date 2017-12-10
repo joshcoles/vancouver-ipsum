@@ -192,7 +192,6 @@ var GeneratorComponent = (function () {
         ];
         this.displayWords = false;
         // Each paragraph is generated uniquely and pushed into 'paragraphs' array
-        this.paragraph = '';
         this.paragraphs = [];
         // Sets default paragraph number. This changes any time
         // the user changes the number, and is not tied to the
@@ -206,7 +205,7 @@ var GeneratorComponent = (function () {
     GeneratorComponent.prototype.onUpdateParagraphNumber = function (event) {
         this.paragraphNumber = parseInt(event.srcElement.value);
     };
-    // TODO remove duplicate words from same paragarph
+    // TODO remove duplicate words from same paragraph
     // This function generates a new paragraph for each
     // number in 'paragraphNumber', pushes it into 'paragraphs',
     // and displays it
@@ -216,6 +215,7 @@ var GeneratorComponent = (function () {
         // Checks if it's the last loop. If not, add a space
         // after word
         for (var i = 0; i < this.paragraphNumber; i++) {
+            newParagraph = "";
             for (var i_1 = 0; i_1 < this.vancouverWords.length; i_1++) {
                 var index = Math.floor(this.vancouverWords.length * Math.random());
                 if (i_1 != this.vancouverWords.length - 1) {
