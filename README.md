@@ -1,4 +1,8 @@
-# DiscGolfStore
+This is currently hosted at [vancouveripsum.com](https://vancouveripsum.com/).
+
+![A screenshot of vancouveripsum.com, with Vancouver-inspired text and a photo of Stanley Park takenf from the Lion's Gate Bridge](https://i.imgur.com/fxBzsAj.jpg)
+
+# VancouverIpsum
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
