@@ -37,7 +37,7 @@
     "handlebars": "^4.3.0",
     "https-proxy-agent": "^2.2.1",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "macaddress": "^0.2.9",
     "mime": "^2.4.4",
     "no-case": "^2.3.2",
