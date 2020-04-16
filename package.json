@@ -35,7 +35,7 @@
     "extend": "^3.0.2",
     "fstream": "^1.0.12",
     "handlebars": "^4.3.0",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^2.2.3",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.15",
     "macaddress": "^0.2.9",
